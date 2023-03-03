@@ -1,35 +1,31 @@
 {
-  "schemaVersion": 1,
-  "id": "sharkitty",
-  "version": "${version}",
-
-  "name": "Sharkitty",
-  "description": "Sharkitty!",
-  "authors": [
-    "Kahzerx"
-  ],
-  "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
-  },
-
-  "license": "CC0-1.0",
-  "icon": "assets/sharkitty/icon.png",
-
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "com.kahzerx.sharkitty.Sharkitty"
-    ]
-  },
-  "mixins": [
-    "sharkitty.mixins.json"
-  ],
-
-  "depends": {
-    "fabricloader": ">=0.14.12",
-    "minecraft": "~1.19.3",
-    "java": ">=17"
-  },
-  "suggests": { }
+	"schemaVersion": 1,
+	"id": "sharkitty",
+	"version": "${version}",
+	"name": "sharkitty",
+	"description": "sharkitty!",
+	"authors": [
+		"Kahzerx"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/sharkitty/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.kahzerx.Sharkitty"
+		]
+	},
+	"mixins": [
+		"sharkitty.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.14",
+		"minecraft": "~1.19.3",
+		"java": ">=17"
+	},
+	"suggests": { }
 }

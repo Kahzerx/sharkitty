@@ -1,4 +1,4 @@
-package com.kahzerx.sharkitty;
+package com.kahzerx;
 
 import net.minecraft.item.Item;
 

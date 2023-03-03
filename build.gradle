@@ -1,6 +1,7 @@
 plugins {
-	id 'fabric-loom' version '1.0-SNAPSHOT'
+	id 'fabric-loom' version '1.1-SNAPSHOT'
 	id 'maven-publish'
+	
 }
 
 sourceCompatibility = JavaVersion.VERSION_17
@@ -34,6 +35,7 @@ processResources {
 }
 
 tasks.withType(JavaCompile).configureEach {
+	it.options.release = 17
 	it.options.encoding = "UTF-8"
 	it.options.release.set(Integer.parseInt(project.java_version as String))
 }
